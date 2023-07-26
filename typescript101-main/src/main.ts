@@ -15,8 +15,6 @@ app.get('/cars', (req, res) => {
     res.json(carList)
 })
 
-//comment
-
 app.post('/cars', (req, res) => {
     if (!req.body.model) {
         return res.status(400).json({message: "Error invalid model"})
