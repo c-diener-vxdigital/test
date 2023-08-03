@@ -17,13 +17,6 @@ export const isCarInList = function(car: carInterface, list: Array<carInterface>
     return false
 }
 
-export const ciao = [];
-
-//comments
-//comments
-//comments
-//comments
-
 export const dealership: dealership = {
     name: "concessionariaSRL",
     phone: "081123456",
