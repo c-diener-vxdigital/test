@@ -17,6 +17,10 @@ app.get('/cars', (req, res) => {
 })
 
 //ottimo
+//ottimo
+//ottimo
+//ottimo
+//ottimo
 
 app.post('/cars', (req, res) => {
     if (!req.body.model) {
