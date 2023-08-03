@@ -10,6 +10,8 @@ interface dealership {
     sale: (model: string, name: string, surname: string) => boolean | carInterface
 }
 
+// This is the control if the carIsInList
+
 export const isCarInList = function(car: carInterface, list: Array<carInterface>): boolean {
     for (let index = 0; index < list.length; index++) {
         if (car.plate == list[index].plate) {
