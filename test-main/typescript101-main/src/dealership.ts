@@ -17,6 +17,8 @@ export const isCarInList = function(car: carInterface, list: Array<carInterface>
     return false
 }
 
+export const ciao = [];
+
 //comments
 //comments
 //comments
