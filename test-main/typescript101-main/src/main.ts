@@ -6,6 +6,7 @@ import { Car } from "./model/Car"
 const app = express()
 const port = 3000
 const carList: Car[] = JSON.parse(fs.readFileSync("cars.json", "utf8"))
+const nonSaprei: string = "Non so cosa altro aggiungere per far vedere i cambiamenti nella repository."
 
 app.use(bodyParser.urlencoded({ extended: false }))
 
