@@ -1,5 +1,7 @@
 import { carInterface } from "./model/Car"
 
+// This is the interface of dealership
+
 interface dealership {
     name: string
     phone: string
